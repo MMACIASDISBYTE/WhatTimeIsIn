@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "whatTimeIsIn", "whatTimeIsIn\whatTimeIsIn.csproj", "{E654710A-0061-41EE-B1F1-359200E9F2AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E654710A-0061-41EE-B1F1-359200E9F2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E654710A-0061-41EE-B1F1-359200E9F2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E654710A-0061-41EE-B1F1-359200E9F2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E654710A-0061-41EE-B1F1-359200E9F2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B4BF6D0-1B95-4991-B204-F54900C36A85}
+	EndGlobalSection
+EndGlobal

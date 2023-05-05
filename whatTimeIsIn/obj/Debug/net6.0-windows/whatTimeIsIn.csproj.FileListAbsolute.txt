@@ -1,0 +1,17 @@
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\bin\Debug\net6.0-windows\whatTimeIsIn.exe
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\bin\Debug\net6.0-windows\whatTimeIsIn.deps.json
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\bin\Debug\net6.0-windows\whatTimeIsIn.runtimeconfig.json
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\bin\Debug\net6.0-windows\whatTimeIsIn.dll
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\bin\Debug\net6.0-windows\whatTimeIsIn.pdb
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\whatTimeIsIn.csproj.AssemblyReference.cache
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\whatTimeIsIn.Form1.resources
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\whatTimeIsIn.csproj.GenerateResource.cache
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\whatTimeIsIn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\whatTimeIsIn.AssemblyInfoInputs.cache
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\whatTimeIsIn.AssemblyInfo.cs
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\whatTimeIsIn.csproj.CoreCompileInputs.cache
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\whatTimeIsIn.dll
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\refint\whatTimeIsIn.dll
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\whatTimeIsIn.pdb
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\whatTimeIsIn.genruntimeconfig.cache
+C:\Users\Mariano Macias\source\repos\whatTimeIsIn\whatTimeIsIn\obj\Debug\net6.0-windows\ref\whatTimeIsIn.dll

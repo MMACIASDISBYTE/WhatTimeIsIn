@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             label2 = new Label();
+            lblSecond1 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -37,7 +38,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ButtonFace;
-            label1.Location = new Point(90, 68);
+            label1.Location = new Point(121, 68);
             label1.Name = "label1";
             label1.Size = new Size(126, 18);
             label1.TabIndex = 0;
@@ -46,13 +47,27 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BorderStyle = BorderStyle.FixedSingle;
             label2.Font = new Font("DS-Digital", 48F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.Menu;
-            label2.Location = new Point(34, 99);
+            label2.Location = new Point(75, 86);
             label2.Name = "label2";
-            label2.Size = new Size(268, 79);
+            label2.Size = new Size(174, 81);
             label2.TabIndex = 1;
-            label2.Text = "16:12:23";
+            label2.Text = "16:12";
+            // 
+            // lblSecond1
+            // 
+            lblSecond1.AutoSize = true;
+            lblSecond1.BorderStyle = BorderStyle.FixedSingle;
+            lblSecond1.Font = new Font("DS-Digital", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            lblSecond1.ForeColor = SystemColors.Menu;
+            lblSecond1.Location = new Point(226, 86);
+            lblSecond1.Name = "lblSecond1";
+            lblSecond1.Size = new Size(51, 36);
+            lblSecond1.TabIndex = 1;
+            lblSecond1.Text = "59";
+            lblSecond1.Click += lblSecond1_Click;
             // 
             // Form1
             // 
@@ -60,6 +75,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Desktop;
             ClientSize = new Size(940, 519);
+            Controls.Add(lblSecond1);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
@@ -72,5 +88,6 @@
 
         private Label label1;
         private Label label2;
+        private Label lblSecond1;
     }
 }

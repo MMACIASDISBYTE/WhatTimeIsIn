@@ -6,5 +6,10 @@ namespace whatTimeIsIn
         {
             InitializeComponent();
         }
+
+        private void lblSecond1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

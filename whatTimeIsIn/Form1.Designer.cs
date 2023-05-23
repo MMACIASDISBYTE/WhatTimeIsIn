@@ -73,7 +73,7 @@
             panel1.Controls.Add(lblTimeZone1);
             panel1.Location = new Point(38, 59);
             panel1.Name = "panel1";
-            panel1.Size = new Size(447, 269);
+            panel1.Size = new Size(471, 269);
             panel1.TabIndex = 0;
             // 
             // lblDay1
@@ -106,7 +106,7 @@
             lblSecond1.BorderStyle = BorderStyle.FixedSingle;
             lblSecond1.Font = new Font("DS-Digital", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             lblSecond1.ForeColor = SystemColors.HighlightText;
-            lblSecond1.Location = new Point(299, 103);
+            lblSecond1.Location = new Point(315, 103);
             lblSecond1.Name = "lblSecond1";
             lblSecond1.Size = new Size(42, 30);
             lblSecond1.TabIndex = 2;
@@ -166,7 +166,7 @@
             lblSecond2.BorderStyle = BorderStyle.FixedSingle;
             lblSecond2.Font = new Font("DS-Digital", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             lblSecond2.ForeColor = SystemColors.HighlightText;
-            lblSecond2.Location = new Point(299, 103);
+            lblSecond2.Location = new Point(313, 103);
             lblSecond2.Name = "lblSecond2";
             lblSecond2.Size = new Size(42, 30);
             lblSecond2.TabIndex = 2;
@@ -190,11 +190,11 @@
             lblTimeZone2.BackColor = SystemColors.Desktop;
             lblTimeZone2.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Italic, GraphicsUnit.Point);
             lblTimeZone2.ForeColor = SystemColors.HighlightText;
-            lblTimeZone2.Location = new Point(65, 14);
+            lblTimeZone2.Location = new Point(126, 14);
             lblTimeZone2.Name = "lblTimeZone2";
-            lblTimeZone2.Size = new Size(312, 46);
+            lblTimeZone2.Size = new Size(193, 46);
             lblTimeZone2.TabIndex = 0;
-            lblTimeZone2.Text = "Your Local TIme";
+            lblTimeZone2.Text = "New York";
             // 
             // panel2
             // 
@@ -206,7 +206,7 @@
             panel2.Controls.Add(lblTimeZone2);
             panel2.Location = new Point(574, 59);
             panel2.Name = "panel2";
-            panel2.Size = new Size(447, 269);
+            panel2.Size = new Size(467, 269);
             panel2.TabIndex = 1;
             // 
             // lblDay3
@@ -239,7 +239,7 @@
             lblSecond3.BorderStyle = BorderStyle.FixedSingle;
             lblSecond3.Font = new Font("DS-Digital", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             lblSecond3.ForeColor = SystemColors.HighlightText;
-            lblSecond3.Location = new Point(299, 103);
+            lblSecond3.Location = new Point(315, 103);
             lblSecond3.Name = "lblSecond3";
             lblSecond3.Size = new Size(42, 30);
             lblSecond3.TabIndex = 2;
@@ -279,7 +279,7 @@
             panel3.Controls.Add(lblTimeZone3);
             panel3.Location = new Point(38, 374);
             panel3.Name = "panel3";
-            panel3.Size = new Size(447, 269);
+            panel3.Size = new Size(471, 269);
             panel3.TabIndex = 2;
             // 
             // lblDay4
@@ -312,7 +312,7 @@
             lblSecond4.BorderStyle = BorderStyle.FixedSingle;
             lblSecond4.Font = new Font("DS-Digital", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             lblSecond4.ForeColor = SystemColors.HighlightText;
-            lblSecond4.Location = new Point(299, 103);
+            lblSecond4.Location = new Point(313, 103);
             lblSecond4.Name = "lblSecond4";
             lblSecond4.Size = new Size(42, 30);
             lblSecond4.TabIndex = 2;
@@ -352,19 +352,31 @@
             panel4.Controls.Add(lblTimeZone4);
             panel4.Location = new Point(574, 374);
             panel4.Name = "panel4";
-            panel4.Size = new Size(447, 269);
+            panel4.Size = new Size(467, 269);
             panel4.TabIndex = 3;
             // 
             // timer1
             // 
             timer1.Tick += timer1_Tick;
             // 
+            // timer2
+            // 
+            timer2.Tick += timer2_Tick;
+            // 
+            // timer3
+            // 
+            timer3.Tick += timer3_Tick;
+            // 
+            // timer4
+            // 
+            timer4.Tick += timer4_Tick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Desktop;
-            ClientSize = new Size(1052, 677);
+            ClientSize = new Size(1093, 679);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);

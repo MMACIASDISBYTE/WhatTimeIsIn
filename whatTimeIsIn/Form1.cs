@@ -2,9 +2,11 @@ namespace whatTimeIsIn
 {
     public partial class Form1 : Form
     {
+        private TimeZoneService _timeZoneService;
         public Form1()
         {
             InitializeComponent();
+            _timeZoneService = new TimeZoneService();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -25,35 +27,32 @@ namespace whatTimeIsIn
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            var inTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
-            var easternDate = TimeZoneInfo.ConvertTime(DateTime.Now, inTimeZone);
+            var locaDate = _timeZoneService.GetCurrentDateByTimeZone("Eastern Standard Time");
 
-            lblTime2.Text = easternDate.ToString("HH:mm");
-            lblSecond2.Text = easternDate.ToString("ss");
-            lblDate2.Text = easternDate.ToString("MMM dd yyyy");
-            lblDay2.Text = easternDate.ToString("dddd");
+            lblTime2.Text = locaDate.ToString("HH:mm");
+            lblSecond2.Text = locaDate.ToString("ss");
+            lblDate2.Text = locaDate.ToString("MMM dd yyyy");
+            lblDay2.Text = locaDate.ToString("dddd");
         }
 
         private void timer3_Tick(object sender, EventArgs e)
         {
-            var inTimeZone = TimeZoneInfo.FindSystemTimeZoneById("China Standard Time");
-            var easternDate = TimeZoneInfo.ConvertTime(DateTime.Now, inTimeZone);
+            var locaDate = _timeZoneService.GetCurrentDateByTimeZone("China Standard Time");
 
-            lblTime3.Text = easternDate.ToString("HH:mm");
-            lblSecond3.Text = easternDate.ToString("ss");
-            lblDate3.Text = easternDate.ToString("MMM dd yyyy");
-            lblDay3.Text = easternDate.ToString("dddd");
+            lblTime3.Text = locaDate.ToString("HH:mm");
+            lblSecond3.Text = locaDate.ToString("ss");
+            lblDate3.Text = locaDate.ToString("MMM dd yyyy");
+            lblDay3.Text = locaDate.ToString("dddd");
         }
 
         private void timer4_Tick(object sender, EventArgs e)
         {
-            var inTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Tokyo Standard Time");
-            var easternDate = TimeZoneInfo.ConvertTime(DateTime.Now, inTimeZone);
+            var locaDate = _timeZoneService.GetCurrentDateByTimeZone("Tokyo Standard Time");
 
-            lblTime4.Text = easternDate.ToString("HH:mm");
-            lblSecond4.Text = easternDate.ToString("ss");
-            lblDate4.Text = easternDate.ToString("MMM dd yyyy");
-            lblDay4.Text = easternDate.ToString("dddd");
+            lblTime4.Text = locaDate.ToString("HH:mm");
+            lblSecond4.Text = locaDate.ToString("ss");
+            lblDate4.Text = locaDate.ToString("MMM dd yyyy");
+            lblDay4.Text = locaDate.ToString("dddd");
         }
     }
 }
